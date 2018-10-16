@@ -1,0 +1,6 @@
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\Klient - Server\ChatServer\ChatLibrary\bin\Debug\ChatLibrary.dll
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\Klient - Server\ChatServer\ChatLibrary\bin\Debug\ChatLibrary.pdb
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\Klient - Server\ChatServer\ChatLibrary\obj\Debug\ChatLibrary.csprojAssemblyReference.cache
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\Klient - Server\ChatServer\ChatLibrary\obj\Debug\ChatLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\Klient - Server\ChatServer\ChatLibrary\obj\Debug\ChatLibrary.dll
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\Klient - Server\ChatServer\ChatLibrary\obj\Debug\ChatLibrary.pdb

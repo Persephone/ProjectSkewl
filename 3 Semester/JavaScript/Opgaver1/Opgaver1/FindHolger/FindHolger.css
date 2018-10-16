@@ -1,0 +1,12 @@
+#field {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 40px;
+}

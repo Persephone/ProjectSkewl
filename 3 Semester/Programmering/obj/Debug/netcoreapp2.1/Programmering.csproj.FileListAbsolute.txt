@@ -1,0 +1,11 @@
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\Programmering\bin\Debug\netcoreapp2.1\Programmering.deps.json
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\Programmering\bin\Debug\netcoreapp2.1\Programmering.runtimeconfig.json
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\Programmering\bin\Debug\netcoreapp2.1\Programmering.runtimeconfig.dev.json
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\Programmering\bin\Debug\netcoreapp2.1\Programmering.dll
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\Programmering\bin\Debug\netcoreapp2.1\Programmering.pdb
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\Programmering\obj\Debug\netcoreapp2.1\Programmering.csprojAssemblyReference.cache
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\Programmering\obj\Debug\netcoreapp2.1\Programmering.csproj.CoreCompileInputs.cache
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\Programmering\obj\Debug\netcoreapp2.1\Programmering.AssemblyInfoInputs.cache
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\Programmering\obj\Debug\netcoreapp2.1\Programmering.AssemblyInfo.cs
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\Programmering\obj\Debug\netcoreapp2.1\Programmering.dll
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\Programmering\obj\Debug\netcoreapp2.1\Programmering.pdb

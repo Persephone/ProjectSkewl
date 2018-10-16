@@ -1,0 +1,11 @@
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\BMI\BMIConsole\bin\Debug\netcoreapp2.1\BMIConsole.deps.json
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\BMI\BMIConsole\bin\Debug\netcoreapp2.1\BMIConsole.runtimeconfig.json
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\BMI\BMIConsole\bin\Debug\netcoreapp2.1\BMIConsole.runtimeconfig.dev.json
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\BMI\BMIConsole\bin\Debug\netcoreapp2.1\BMIConsole.dll
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\BMI\BMIConsole\bin\Debug\netcoreapp2.1\BMIConsole.pdb
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\BMI\BMIConsole\obj\Debug\netcoreapp2.1\BMIConsole.csprojAssemblyReference.cache
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\BMI\BMIConsole\obj\Debug\netcoreapp2.1\BMIConsole.csproj.CoreCompileInputs.cache
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\BMI\BMIConsole\obj\Debug\netcoreapp2.1\BMIConsole.AssemblyInfoInputs.cache
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\BMI\BMIConsole\obj\Debug\netcoreapp2.1\BMIConsole.AssemblyInfo.cs
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\BMI\BMIConsole\obj\Debug\netcoreapp2.1\BMIConsole.dll
+C:\Users\Rasmu\Dropbox\Skole\3 Semester\BMI\BMIConsole\obj\Debug\netcoreapp2.1\BMIConsole.pdb

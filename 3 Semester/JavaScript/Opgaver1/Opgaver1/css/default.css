@@ -1,0 +1,28 @@
+﻿body {
+  /* Uncomment this to enable scrolling and zooming
+  touch-action: manipulation;
+  */
+}
+
+#RenteTable {
+  border-style: solid;
+  width: 100%;
+}
+
+#RenteTable td {
+  text-align: center;
+  border-style: dotted;
+  border-width: 1px;
+}
+
+#mySelect {
+  display: inline-block;
+}
+
+#left {
+  display: inline-block;
+}
+
+#right {
+  display: inline-block;
+}

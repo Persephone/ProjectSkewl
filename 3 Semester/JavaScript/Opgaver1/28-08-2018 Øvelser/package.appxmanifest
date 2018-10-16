@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" ?>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  IgnorableNamespaces="uap mp">
+
+  <Identity
+    Name="901c7bc3-e879-4410-9336-219fa80c2000"
+    Version="1.0.0.0"
+    Publisher="CN=Rasmu" />
+
+  <mp:PhoneIdentity PhoneProductId="901c7bc3-e879-4410-9336-219fa80c2000" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+
+  <Properties>
+    <DisplayName>28-08-2018 Øvelser</DisplayName>
+    <PublisherDisplayName>Rasmu</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+
+  <Applications>
+    <Application 
+      Id="App"
+      StartPage="index.html">
+
+      <uap:VisualElements
+        DisplayName="28-08-2018 Øvelser"
+        Description="28-08-2018 Øvelser"
+        BackgroundColor="transparent"
+        Square150x150Logo="images\Square150x150Logo.png"
+        Square44x44Logo="images\Square44x44Logo.png">
+
+        <uap:DefaultTile Wide310x150Logo="images\Wide310x150Logo.png" />
+        <uap:SplashScreen Image="images\splashscreen.png" />
+
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+
+</Package>

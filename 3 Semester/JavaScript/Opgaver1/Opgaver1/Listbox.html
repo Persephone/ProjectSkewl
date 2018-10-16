@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/default.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="left">
+        <input id="navnTextBox" type="text" value="Navn">
+        <input type="button" value="Indsæt" onclick="IndsætBruger()">
+        <input type="button" value="Fjern"  id="remove">
+    </div>
+
+    <form id="right">
+        <select id="mySelect" size="8">
+
+        </select>
+    </form>
+
+    <script>
+        var x = document.getElementById("mySelect");
+        
+        function IndsætBruger() {
+            let option = document.createElement("option");
+            let textbox = document.getElementById("navnTextBox");
+            option.text = textbox.value;
+            x.add(option);
+        }
+
+        const FjernBruger = document.getElementById("remove");
+        FjernBruger.addEventListener("click", function(){
+            let bruger = x.options[x.selectedIndex].value;
+            x.remove(bruger);
+        })
+    </script>
+</body>
+
+</html>
