@@ -4,12 +4,20 @@
 
 <section class="main-container">
     <div class="main-wrapper">
-        <h2>Home</h2>
-        <?php
-            if (isset($_SESSION['userid'])){
-                echo "You are logged in";
-            }
-        ?>
+        <div class="left-wrapper">
+            <p>Test</p>
+            <div class="image"></div>
+        </div>
+        <div class="right-wrapper">
+            <?php
+                if (isset($_SESSION['userid'])) {
+                    echo "<p>You are logged in</p>";
+                } else {
+                    echo "<p>You are not logged in</p>";
+                }
+            ?>
+        </div>
+            
     </div>
 </section>
 

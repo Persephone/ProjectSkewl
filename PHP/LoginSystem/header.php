@@ -18,6 +18,8 @@
         <div class="main-wrapper">
             <ul>
                 <li><a href="index.php">Home</a></li>
+                <li><a href="index.php">Test</a></li>
+                <li><a href="index.php">Test</a></li>
             </ul>
 
             <div class="nav-login">

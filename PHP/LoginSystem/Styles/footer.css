@@ -1,0 +1,30 @@
+footer {
+    position: fixed;
+    bottom: 0px;
+    margin-top: 50px;
+    width: 100%;
+    background-color: lightgreen;
+    color: black;
+    height: 60px;
+}
+
+.footer-container {
+    display: flex;
+    text-align: center;
+}
+
+.footer-container > div {
+    flex: 1; /*grow*/
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.footer-left {
+    
+}
+
+.footer-middle {
+}
+
+.footer-right {
+}

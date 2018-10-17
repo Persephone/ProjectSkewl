@@ -105,7 +105,7 @@ input, select {
 
 .main-wrapper {
     margin: 0 auto;
-    width: 1000px;
+    width: 75%;
 }
 
 a {
@@ -128,6 +128,7 @@ header nav ul {
 
 header nav ul li {
     float: left;
+    padding-right: 15px;
     list-style: none;
 }
 
@@ -203,4 +204,25 @@ header .nav-login a {
     font-size: 40px;
     line-height: 50px;
     text-align: center;
+}
+
+.main-wrapper p {
+    padding: 10px;
+}
+
+/* Left */
+.left-wrapper {
+    float: left;
+    width: 25%;
+    height: 500px;
+    border: 1px solid black;
+    background-color: lightgreen;
+}
+
+.right-wrapper {
+    float: right;
+    width: 70%;
+    height: 500px;
+    border: 1px solid black;
+    background-color: lightgreen;
 }
