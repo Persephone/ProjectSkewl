@@ -1,0 +1,37 @@
+.signup-form {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.signup-form input {
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: white;
+    font-family: arial;
+    font-size: 16px;
+    color:black;
+    line-height: 40px;
+}
+
+.signup-form button {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: lightgreen;
+    font-family: arial;
+    font-size: 16px;
+    color:black;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: lightgrey;
+    font-size: 20px;
+}
