@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <nav>
+    <a *ngFor="let link of navLinks">
+      <a routerLink="/{{link.path}}">{{link.text | titlecase}}</a>
+    </a>
+  </nav>
+  <router-outlet></router-outlet>
+  <app-messages></app-messages>
+</div>
+
+<router-outlet></router-outlet>
