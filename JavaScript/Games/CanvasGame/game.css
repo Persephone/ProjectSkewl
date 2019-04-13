@@ -1,0 +1,81 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 16px;
+}
+
+.wrapper {
+    width: 800px;
+    height: 480px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.canvas-container {
+    position: relative;
+    width: 800px;
+    height: 480px;
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid black;
+    z-index: 1;
+    width: 800px;
+    height: 480px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url('./images/menu-bg.png');
+    width: 800px;
+    height: 480px;
+}
+
+.menu {
+    position: absolute;
+    width: 800px;
+    height: 480px;
+    border: 1px solid black;
+    z-index: 2;
+    text-align: center;
+}
+
+.main h1 {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.button {
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #AA2666;
+    color: white;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    background-color: #FB1886;
+    background-image: -webkit-linear-gradient(bottom, #FB1886 0%, #B30D5D 100%);
+    background-image: linear-gradient(to bottom, #FB1886 0%, #B30D5D 100%);
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #B30D5D;
+    background-image: -webkit-linear-gradient(bottom, #B30D5D 0%, #FB1886 100%);
+    background-image: linear-gradient(to bottom, #B30D5D 0%, #FB1886 100%);
+}

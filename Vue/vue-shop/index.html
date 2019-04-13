@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="app">
+        <div>
+            <input type="text" v-model="name" placeholder="Your name?">
+            <h5>Hello, {{name}}</h5>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script>
+new Vue({
+    template: '#app',
+    data: function() {
+        return {
+            name: '',
+            text: 'Hello Vue',
+        }
+    }
+}).$mount('#app');
+</script>

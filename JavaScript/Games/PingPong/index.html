@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="menu">
+            <h1>Ping Pong Game</h1>
+            <button id="start-ai">Start vs Computer</button>
+            <button id="start-2player">Start vs Player 2</button>
+            <button id="stop" disabled="true">Stop</button>
+        </div>
+        <div class="controls">
+            <p>Controls:</p>
+            <p>Player 1: Left: <- Right: -></p>
+            <p>Player 2: Left: A Right: D</p>
+        </div>
+        <div class="canvas-container">
+            <canvas id="game-area">
+                <p>You're browser does not support the required functionality to play this game.</p>
+                <p>Please update to a modern browser such as <a href="www.google.com/chrome/‎">Google Chrome</a> to
+                    play.</p>
+            </canvas>
+        </div>
+    </div>
+</body>
+</html>
+
+<script type="text/javascript" src="pong.js"></script>
+
+<style>
+.main {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+#game-area {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.controls {
+    text-align: center;
+}
+</style>

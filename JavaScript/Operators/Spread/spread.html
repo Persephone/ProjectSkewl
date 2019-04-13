@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        //var line1 = ['Artificial', 'Bob', 'Test'];
+        //var line2 = ['Garry', 'Jens', 'Cherry', 'Victoria'];
+        //var fullsong = [...line1, ...line2, 'broken', 'barriers', 'animate'];
+        ////console.log(...fullsong);
+//
+        //song = function(name, arist) {
+        //    console.log('Song name is' + name + ' Artist name is ' + arist);
+        //}
+//
+        //let details = ['Uber', 'Cool'];
+        ////song(details);¨
+        //song(...details);
+
+        let numbers = [9, 3, 6, 2];
+
+        console.log(Math.min(...numbers));
+		
+		class King {  
+		   constructor(name, country) {
+			 this.name = name;
+			 this.country = country;     
+		   }
+		   getDescription() {
+			 return `${this.name} leads ${this.country}`;
+		   }
+		}
+		var details = ['Alexander the Great', 'Greece'];  
+		var Alexander = new King(...details);  
+		console.log(Alexander.getDescription()); // => 'Alexander the Great leads Greece'  
+		
+    </script>
+</body>
+</html>

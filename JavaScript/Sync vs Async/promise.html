@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+    
+    var t0 = performance.now();
+
+    setTimeout(() => {
+        var t1 = performance.now();
+        console.log("Call to doSomething took " + (t1 - t0) + " milliseconds.")
+
+    }, 3000);
+    
+    let getMessage = (callback) => {
+        $.post('ajax.php', (res) => {
+            callback(res)
+        });
+    };
+
+    getMessage((msg) => console.log(msg));
+
+
+    let promise = new Promise((resolve, reject) => {
+        if (false) {
+            resolve('Sucess');
+        } else {
+            reject(new Error('oops'));
+        }
+    })
+
+    promise.then(msg => console.log(msg));
+
+    </script>
+</body>
+</html>
